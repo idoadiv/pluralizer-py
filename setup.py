@@ -6,7 +6,7 @@ root = path.abspath(path.dirname(__file__))
 with open(path.join(root, 'README.md'), encoding='utf-8') as f:
   long_description = f.read()
 
-version = os.getenv("PYPI_VERSION")
+version = "1.2.0"
 
 if not version:
   raise Exception("PYPI_VERSION not defined")
